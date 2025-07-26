@@ -73,6 +73,38 @@ div.folder &gt; span.hidden {
 		<description>Linux Hardware Reviews, Performance Benchmarks &amp; Open-Source / Free Software News</description>
 		<language>en-us</language>
 	  <item>
+   <title>FFmpeg 8.0 Preparing For Release In August With Many Great Features</title>
+   <link>https://www.phoronix.com/news/FFmpeg-8.0-Coming-Soon</link>
+   <guid>https://www.phoronix.com/news/FFmpeg-8.0-Coming-Soon</guid>
+   <description>We are just a few weeks out from seeing the release of the FFmpeg 8.0 multimedia library with many new features and improvements for this widely-used open-source software...</description>
+   <pubDate>Sat, 26 Jul 2025 07:01:11 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>Linux's Modern NTFS Driver Will Now Correctly Handle Symlinks Created On Windows</title>
+   <link>https://www.phoronix.com/news/Linux-NTFS3-Correct-Symlinks</link>
+   <guid>https://www.phoronix.com/news/Linux-NTFS3-Correct-Symlinks</guid>
+   <description>One of the nice Linux kernel accomplishments during the pandemic was getting the NTFS3 driver upstreamed for that modern NTFS file-system read/write driver developed by Paragon Software. In recent times that NTFS3 driver has been seeing occasional fixes and for the Linux 6.17 kernel -- and perhaps then back-ported to existing kernels -- are some notable fixes for those relying on drives formatted with this Microsoft file-system...</description>
+   <pubDate>Sat, 26 Jul 2025 06:44:12 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>Linux 6.17 To Support Arm's BRBE</title>
+   <link>https://www.phoronix.com/news/Linux-6.17-ARM64</link>
+   <guid>https://www.phoronix.com/news/Linux-6.17-ARM64</guid>
+   <description>The ARM64 (AArch64) architecture updates have been submitted ahead of the imminent Linux 6.17 merge window...</description>
+   <pubDate>Sat, 26 Jul 2025 06:33:47 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>Intel oneDNN 3.9 Making More Preparations For Xe3, Nova Lake &amp; Diamond Rapids</title>
+   <link>https://www.phoronix.com/news/Intel-oneDNN-3.9-RC</link>
+   <guid>https://www.phoronix.com/news/Intel-oneDNN-3.9-RC</guid>
+   <description>Released on Friday was a new version of the oneDNN deep neural network library maintained by Intel and the UXL Foundation. This library used by various deep learning applications continues preparing for upcoming Intel CPUs and GPUs...</description>
+   <pubDate>Sat, 26 Jul 2025 06:19:28 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
    <title>KDE Plasma 6.5 Adds Notifications For Low Printer Ink Levels</title>
    <link>https://www.phoronix.com/news/Plasma-6.5-Low-Printer-Ink</link>
    <guid>https://www.phoronix.com/news/Plasma-6.5-Low-Printer-Ink</guid>
@@ -296,38 +328,6 @@ div.folder &gt; span.hidden {
    <pubDate>Wed, 23 Jul 2025 10:41:17 -0400</pubDate>
    <dc:creator>Michael Larabel</dc:creator>
   </item>
-  <item>
-   <title>Btrfs Preps Performance Improvements &amp; Experimental Large Folios For Linux 6.17</title>
-   <link>https://www.phoronix.com/news/Linux-6.17-Btrfs</link>
-   <guid>https://www.phoronix.com/news/Linux-6.17-Btrfs</guid>
-   <description>With the Linux 6.16 stable kernel potentially being released this coming Sunday, the Linux 6.17 merge window is quickly approaching. Btrfs maintainer and SUSE engineer David Sterba sent out the Btrfs pull request already of new feature code for this copy-on-write file-system in Linux 6.17...</description>
-   <pubDate>Wed, 23 Jul 2025 08:55:00 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>OVMF Debug Log Driver Slated For Linux 6.17 To Help Analyze UEFI VM Boot Issues</title>
-   <link>https://www.phoronix.com/news/OVMF-Debug-Log-Driver</link>
-   <guid>https://www.phoronix.com/news/OVMF-Debug-Log-Driver</guid>
-   <description>For those making use of Open Virtual Machine Firmware (OVMF) such as for UEFI booting of VMs with KVM+QEMU, the upcoming Linux 6.17 kernel is set to offer a convenient new driver to help in debugging the system boot when needed...</description>
-   <pubDate>Wed, 23 Jul 2025 08:40:10 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>Pogocache 1.0 Released: Claims Better Performance Than Memcache, Valkey &amp; Redis</title>
-   <link>https://www.phoronix.com/news/Pogocache-1.0-Released</link>
-   <guid>https://www.phoronix.com/news/Pogocache-1.0-Released</guid>
-   <description>Pogocache 1.0 was released today as a fast open-source caching software that aims for low latency and great CPU efficiency. Pogocache supports Memcache / Valkey / Redis / HTTP / Postgres wire protocols while claiming to offer much better throughput and lower latency than these caching alternatives...</description>
-   <pubDate>Wed, 23 Jul 2025 08:11:31 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>Cloud Hypervisor 47 Provides Nicer Error Messages</title>
-   <link>https://www.phoronix.com/news/Cloud-Hypervisor-47</link>
-   <guid>https://www.phoronix.com/news/Cloud-Hypervisor-47</guid>
-   <description>Cloud Hypervisor is the open-source, Rust-based VMM started originally by Intel engineers but under the stewardship of the Linux Foundation has evolved into a nice multi-vendor initiative with the likes of Microsoft, Cyberus, Arm, and others all contributing. Even with Intel's cutbacks due to their ongoing corporate restructuring, the Cloud Hypervisor project is thriving as a multi-vendor open-source project for a security-focused hypervisor...</description>
-   <pubDate>Wed, 23 Jul 2025 06:26:59 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
 </channel>
 	</rss></div><div class="header"><span>This XML file does not appear to have any style information associated with it. The document tree is shown below.</span><br /></div><div class="pretty-print"><div class="folder" id="folder0"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;rss<span class="html-attribute"> <span class="html-attribute-name">xmlns:dc</span>="<span class="html-attribute-value">http://purl.org/dc/elements/1.1/</span>"</span><span class="html-attribute"> <span class="html-attribute-name">version</span>="<span class="html-attribute-value">2.0</span>"</span>&gt;</span></div><div class="opened"><span>
 	 </span><div class="folder" id="folder1"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;channel&gt;</span></div><div class="opened"><span>
@@ -336,6 +336,38 @@ div.folder &gt; span.hidden {
 		</span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Linux Hardware Reviews, Performance Benchmarks &amp; Open-Source / Free Software News</span><span class="html-tag">&lt;/description&gt;</span></div><span>
 		</span><div class="line"><span class="html-tag">&lt;language&gt;</span><span>en-us</span><span class="html-tag">&lt;/language&gt;</span></div><span>
 	  </span><div class="folder" id="folder2"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>FFmpeg 8.0 Preparing For Release In August With Many Great Features</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/FFmpeg-8.0-Coming-Soon</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/FFmpeg-8.0-Coming-Soon</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>We are just a few weeks out from seeing the release of the FFmpeg 8.0 multimedia library with many new features and improvements for this widely-used open-source software...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 07:01:11 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder3"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux's Modern NTFS Driver Will Now Correctly Handle Symlinks Created On Windows</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-NTFS3-Correct-Symlinks</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-NTFS3-Correct-Symlinks</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>One of the nice Linux kernel accomplishments during the pandemic was getting the NTFS3 driver upstreamed for that modern NTFS file-system read/write driver developed by Paragon Software. In recent times that NTFS3 driver has been seeing occasional fixes and for the Linux 6.17 kernel -- and perhaps then back-ported to existing kernels -- are some notable fixes for those relying on drives formatted with this Microsoft file-system...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 06:44:12 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder4"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.17 To Support Arm's BRBE</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-ARM64</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-ARM64</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>The ARM64 (AArch64) architecture updates have been submitted ahead of the imminent Linux 6.17 merge window...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 06:33:47 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder5"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Intel oneDNN 3.9 Making More Preparations For Xe3, Nova Lake &amp; Diamond Rapids</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Intel-oneDNN-3.9-RC</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Intel-oneDNN-3.9-RC</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Released on Friday was a new version of the oneDNN deep neural network library maintained by Intel and the UXL Foundation. This library used by various deep learning applications continues preparing for upcoming Intel CPUs and GPUs...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 06:19:28 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder6"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>KDE Plasma 6.5 Adds Notifications For Low Printer Ink Levels</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Plasma-6.5-Low-Printer-Ink</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Plasma-6.5-Low-Printer-Ink</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -343,7 +375,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 00:00:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder3"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder7"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.17 Will Be Exciting With Intel "Project Battlematrix" GPU Driver Changes &amp; More</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Early-Features</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Early-Features</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -351,7 +383,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 20:36:48 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder4"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder8"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux Kernel Proposal Documents Rules For Using AI Coding Assistants</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-Kernel-AI-Docs-Rules</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-Kernel-AI-Docs-Rules</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -359,7 +391,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 14:46:11 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder5"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder9"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux Will Finally Be Able To Reboot Apple M1/M2 Macs With The v6.17 Kernel</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Apple-SMC</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Apple-SMC</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -367,7 +399,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 14:19:17 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder6"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder10"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Final Benchmarks Of Clear Linux On Intel: ~48% Faster Than Ubuntu Out-Of-The-Box</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/review/clear-linux-48p-ubuntu</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/review/clear-linux-48p-ubuntu</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -375,7 +407,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 13:00:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder7"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder11"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Intel Quietly Sunset Its PlaidML Open-Source Deep Learning Software</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Intel-PlaidML-Archived</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Intel-PlaidML-Archived</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -383,7 +415,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 12:53:11 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder8"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder12"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.16 Is Exciting For Open-Source NVIDIA, OpenVPN DCO &amp; More Performance</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.16-Features-Reminder</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.16-Features-Reminder</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -391,7 +423,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 12:30:30 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder9"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder13"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Bcachefs Lands Last Minute Fixes For Linux 6.16</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Bcachefs-Last-Minute-Linux-6.16</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Bcachefs-Last-Minute-Linux-6.16</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -399,7 +431,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 12:10:44 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder10"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder14"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Threadripper 9000 Series Available On 31 July, 9980X For $4999 USD</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/AMD-Threadripper-9000-31-July</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/AMD-Threadripper-9000-31-July</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -407,7 +439,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 09:58:24 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder11"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder15"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Fedora Considers Reducing The Scope That BIOS Systems Can Hold Up A Release</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Fedora-Non-UEFI-BIOS-Scope</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Fedora-Non-UEFI-BIOS-Scope</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -415,7 +447,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 08:49:08 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder12"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder16"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Ayn Gaming Handhelds To See Better Linux Support With New Open-Source Driver</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Ayn-Handhelds-Linux-Driver</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Ayn-Handhelds-Linux-Driver</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -423,7 +455,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 06:41:46 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder13"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder17"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Red Hat Has Been Rewriting Bash-Based Greenboot In Rust</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Greenboot-Bash-Rust</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Greenboot-Bash-Rust</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -431,7 +463,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 06:25:26 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder14"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder18"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Fedora 43 Looks To Offer Support For The Hare Programming Language</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Fedora-43-Hare-Programming</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Fedora-43-Hare-Programming</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -439,7 +471,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 06:09:17 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder15"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder19"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Vulkan + Mesa Drivers For AI Inferencing? It's Already Showing Potential On Radeon RADV</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Mesa-Vulkan-AI-RADV-Potential</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Mesa-Vulkan-AI-RADV-Potential</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -447,7 +479,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 19:42:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder16"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder20"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>New AMD Linux Driver Ushers In Seamless Firmware Servicing "SFS"</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/AMD-Seamless-Firmware-Servicing</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/AMD-Seamless-Firmware-Servicing</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -455,7 +487,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 17:58:57 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder17"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder21"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.16 Brings Some Minor Performance Boosts For Strix Halo's Radeon Graphics</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Strix-Halo-Linux-6.16</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Strix-Halo-Linux-6.16</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -463,7 +495,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 11:29:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder18"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder22"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Ubuntu Concept For Snapdragon X1 Laptops Moves To Linux 6.16, Enables More Devices</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Ubuntu-Concept-Linux-6.16-X1E</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Ubuntu-Concept-Linux-6.16-X1E</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -471,7 +503,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 08:52:36 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder19"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder23"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Mesa 25.3 Merges Vulkan AMD Anti-Lag Support</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Mesa-Vulkan-AMD-Anti-Lag</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Mesa-Vulkan-AMD-Anti-Lag</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -479,7 +511,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 06:49:03 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder20"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder24"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>AMD RadeonSI Driver Enables OpenGL Sparse Texture Support For RDNA4 GPUs</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/RadeonSI-RDNA4-Sparse-Textures</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/RadeonSI-RDNA4-Sparse-Textures</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -487,7 +519,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 06:41:32 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder21"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder25"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>The Linux Kernel Seeing Rare Code Activity Around SPARC64</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-SPARC64-vDSO-Library</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-SPARC64-vDSO-Library</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -495,7 +527,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 06:25:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder22"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder26"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Valve Linux Engineer Working On A Big Improvement For Old AMD Radeon GPUs</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/AMDGPU-DC-Analog-GCN-1.0-1.1</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/AMDGPU-DC-Analog-GCN-1.0-1.1</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -503,7 +535,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 20:32:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder23"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder27"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>GNOME Foundry Taking Shape As "An IDE In A Box" With CLI Tooling</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/GNOME-Builder-Foundry-2025</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/GNOME-Builder-Foundry-2025</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -511,7 +543,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 16:38:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder24"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder28"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>AMD Strix Point Linux Performance Comparison One Year After Launch</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/review/amd-strix-point-2025</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/review/amd-strix-point-2025</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -519,7 +551,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 14:50:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder25"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder29"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Wayback 0.1 Released As First Preview Release For X11 Compatibility Layer</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Wayback-0.1-Released</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Wayback-0.1-Released</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -527,7 +559,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 14:46:50 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder26"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder30"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>systemd 258-rc1 Is A Massive Feature Release With New Tools, More Than 260 Changes</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/systemd-258-rc1</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/systemd-258-rc1</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -535,7 +567,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 14:00:59 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder27"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder31"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Zed Editor's Newest Feature: Being Able To Disable All AI Features</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Zed-Option-Disable-AI-Features</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Zed-Option-Disable-AI-Features</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -543,7 +575,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 12:00:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder28"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder32"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Blender Now Supports Properly Importing &amp; Exporting HDR Videos</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Blender-HDR-Video-Import-Export</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Blender-HDR-Video-Import-Export</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -551,44 +583,12 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 11:47:27 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder29"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder33"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Mesa 25.2-rc2 Released With Intel Wildcat Lake Enablement, Legacy-X11 Option Deprecated</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Mesa-25.2-rc2</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Mesa-25.2-rc2</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Eric Engestrom just released Mesa 25.2-rc2 as the newest, on-time weekly release candidate for this quarter's Mesa 25.2 feature series...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 10:41:17 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder30"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Btrfs Preps Performance Improvements &amp; Experimental Large Folios For Linux 6.17</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Btrfs</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Btrfs</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>With the Linux 6.16 stable kernel potentially being released this coming Sunday, the Linux 6.17 merge window is quickly approaching. Btrfs maintainer and SUSE engineer David Sterba sent out the Btrfs pull request already of new feature code for this copy-on-write file-system in Linux 6.17...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 08:55:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder31"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>OVMF Debug Log Driver Slated For Linux 6.17 To Help Analyze UEFI VM Boot Issues</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/OVMF-Debug-Log-Driver</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/OVMF-Debug-Log-Driver</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>For those making use of Open Virtual Machine Firmware (OVMF) such as for UEFI booting of VMs with KVM+QEMU, the upcoming Linux 6.17 kernel is set to offer a convenient new driver to help in debugging the system boot when needed...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 08:40:10 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder32"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Pogocache 1.0 Released: Claims Better Performance Than Memcache, Valkey &amp; Redis</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Pogocache-1.0-Released</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Pogocache-1.0-Released</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Pogocache 1.0 was released today as a fast open-source caching software that aims for low latency and great CPU efficiency. Pogocache supports Memcache / Valkey / Redis / HTTP / Postgres wire protocols while claiming to offer much better throughput and lower latency than these caching alternatives...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 08:11:31 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder33"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Cloud Hypervisor 47 Provides Nicer Error Messages</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Cloud-Hypervisor-47</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Cloud-Hypervisor-47</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Cloud Hypervisor is the open-source, Rust-based VMM started originally by Intel engineers but under the stewardship of the Linux Foundation has evolved into a nice multi-vendor initiative with the likes of Microsoft, Cyberus, Arm, and others all contributing. Even with Intel's cutbacks due to their ongoing corporate restructuring, the Cloud Hypervisor project is thriving as a multi-vendor open-source project for a security-focused hypervisor...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 06:26:59 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
 </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/channel&gt;</span></div></div><span>

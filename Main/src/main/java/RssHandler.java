@@ -48,16 +48,14 @@ public class RssHandler {
                     pubDate = eElement.getElementsByTagName("pubDate").item(0).getTextContent();
                     creator = eElement.getElementsByTagName("dc:creator").item(0).getTextContent();
                 }
-//                System.out.println(index);
                 if(timeMachine.getTime().before(timeMachine.String2Date(pubDate)))
                 {
-//                    System.out.println(index);
                     Passage = "#  " + title + "\n\n" +
                             description + "\n\n\n"+
                             pubDate + "\n\n" +
                             "Written by " + creator + "\n\n" +
                             link;
-//                    timeMachine.writeTime(timeMachine.String2Date(pubDate));
+                    timeMachine.writeTime(timeMachine.String2Date(pubDate));
                     fullContent.add(Passage);
                 }
             }
