@@ -44,11 +44,11 @@ public class RssHandler {
         } catch (Throwable e) {
             throw new RuntimeException(e);
         }
-        fullContent = "title: " + title + "\n" +
-                    "writer: " + creator + "\n" +
-                    "description: " + description + "\n" +
-                    "pubData: " + pubDate + "\n" +
-                    "link: " + link;
+        fullContent = "#  " + title + "\n\n" +
+                    description + "\n\n"+
+                    pubDate + "\n\n" +
+                    "Written by " + creator + "\n\n" +
+                    link;
         return fullContent;
     }
     public static void  main(String[] args){
