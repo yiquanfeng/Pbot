@@ -15,25 +15,28 @@ public class HttpHandler {
         String api_type = "send_group_msg";
         JsonHandler jsonHandler;
         RssHandler rssHandler = new RssHandler();
+        for (int i=0;i<rssHandler.getContent().size();i++){
+            jsonHandler = new JsonHandler(api_type, "text", rssHandler.getContent().get(i));
 
-        jsonHandler = new JsonHandler(api_type, "text", rssHandler.getContent());
-
-        HttpClient mainClient = HttpClient.newHttpClient();
-        HttpRequest mainRequest = HttpRequest.newBuilder()
-                .uri(URI.create(jsonHandler.url))
-                .timeout(Duration.ofMinutes(1))
-                .header("Content-Type", "application/json")
-                .POST(HttpRequest.BodyPublishers.ofString(jsonHandler.getJson()))
-                .build();
+            HttpClient mainClient = HttpClient.newHttpClient();
+            HttpRequest mainRequest = HttpRequest.newBuilder()
+                    .uri(URI.create(jsonHandler.url))
+                    .timeout(Duration.ofMinutes(1))
+                    .header("Content-Type", "application/json")
+                    .POST(HttpRequest.BodyPublishers.ofString(jsonHandler.getJson()))
+                    .build();
 //        System.out.println(mainRequest);
-        try {
-            HttpResponse<String> response =
-                    mainClient.send(mainRequest, HttpResponse.BodyHandlers.ofString());
-            System.out.println(response.statusCode());
-            System.out.println(response.body());
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+            try {
+                HttpResponse<String> response =
+                        mainClient.send(mainRequest, HttpResponse.BodyHandlers.ofString());
+                System.out.println(response.statusCode());
+                System.out.println(response.body());
+                Thread.sleep(5000);
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
         }
+
 
 
     }
