@@ -14,7 +14,7 @@ Scraper: Python Service using Selenium and undetected_chromedriver
 - json message using Gson
 - send api requests to NapCat server (now is only /send_group_msg)
 
-bug-report
-[fix] if i remove time update, then some news will repeat
+bug-report  
+[fixed] if i remove time update, then some news will repeat
 
 
