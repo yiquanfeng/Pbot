@@ -25,7 +25,7 @@ public class RssHandler {
     String pubDate = "";
     String creator = "";
     String Passage = "";
-    ArrayList<String> fullContent = new ArrayList<>();
+    ArrayList<String> fullContent = new ArrayList<String>();
     timeMachine timeMachine = new timeMachine();
     int temp = 0;
 
@@ -38,7 +38,7 @@ public class RssHandler {
             Document doc = dBuilder.parse(inputxml);
             doc.getDocumentElement().normalize();
             NodeList Passages = doc.getElementsByTagName("item");
-            for (int tmp=0;tmp< Passages.getLength();tmp++)
+            for (int tmp=Passages.getLength()-1;tmp >= 0;tmp--)
             {
                 Node nNode = Passages.item(tmp);
                 if(nNode.getNodeType() == Node.ELEMENT_NODE) {
@@ -76,6 +76,7 @@ public class RssHandler {
     public static void  main(String[] args){
         timeMachine test = new timeMachine();
         System.out.println(test.getTime());
+//        test.writeTime(test.String2Date("Fri, 25 Jul 2025 12:53:11 -0400"));
     }
 }
 

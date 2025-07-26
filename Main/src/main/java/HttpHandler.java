@@ -17,7 +17,7 @@ public class HttpHandler {
         RssHandler rssHandler = new RssHandler();
         for (int i=0;i<rssHandler.getContent().size();i++){
             jsonHandler = new JsonHandler(api_type, "text", rssHandler.getContent().get(i));
-
+//            System.out.println(rssHandler.getContent().get(i));
             HttpClient mainClient = HttpClient.newHttpClient();
             HttpRequest mainRequest = HttpRequest.newBuilder()
                     .uri(URI.create(jsonHandler.url))
@@ -25,7 +25,7 @@ public class HttpHandler {
                     .header("Content-Type", "application/json")
                     .POST(HttpRequest.BodyPublishers.ofString(jsonHandler.getJson()))
                     .build();
-//        System.out.println(mainRequest);
+
             try {
                 HttpResponse<String> response =
                         mainClient.send(mainRequest, HttpResponse.BodyHandlers.ofString());
