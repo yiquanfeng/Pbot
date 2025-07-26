@@ -38,7 +38,6 @@ public class RssHandler {
             int limit = Passages.getLength()-1;
             for (int index = limit; index >= 0; index--)
             {
-                System.out.println(index);
                 Node nNode = Passages.item(index);
                 if(nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element eElement = (Element) nNode;

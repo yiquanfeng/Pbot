@@ -32,7 +32,7 @@ public class HttpHandler {
                         mainClient.send(mainRequest, HttpResponse.BodyHandlers.ofString());
                 System.out.println(response.statusCode());
                 System.out.println(response.body());
-                Thread.sleep(20*60*1000); // 20mins
+                Thread.sleep(2*60*1000); // 20mins
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
