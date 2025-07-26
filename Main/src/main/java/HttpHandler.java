@@ -15,9 +15,10 @@ public class HttpHandler {
         String api_type = "send_group_msg";
         JsonHandler jsonHandler;
         RssHandler rssHandler = new RssHandler();
-        for (int i=0;i<rssHandler.getContent().size();i++){
+        int limit = rssHandler.getContent().size();
+        for (int i=0;i< limit;i++){
             jsonHandler = new JsonHandler(api_type, "text", rssHandler.getContent().get(i));
-//            System.out.println(rssHandler.getContent().get(i));
+            System.out.println(rssHandler.getContent().size());
             HttpClient mainClient = HttpClient.newHttpClient();
             HttpRequest mainRequest = HttpRequest.newBuilder()
                     .uri(URI.create(jsonHandler.url))

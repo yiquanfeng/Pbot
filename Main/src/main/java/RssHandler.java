@@ -9,8 +9,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.nio.CharBuffer;
-import java.nio.charset.Charset;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -27,7 +25,6 @@ public class RssHandler {
     String Passage = "";
     ArrayList<String> fullContent = new ArrayList<String>();
     timeMachine timeMachine = new timeMachine();
-    int temp = 0;
 
     public RssHandler() {
     }
@@ -38,9 +35,11 @@ public class RssHandler {
             Document doc = dBuilder.parse(inputxml);
             doc.getDocumentElement().normalize();
             NodeList Passages = doc.getElementsByTagName("item");
-            for (int tmp=Passages.getLength()-1;tmp >= 0;tmp--)
+            int limit = Passages.getLength()-1;
+            for (int index = limit; index >= 0; index--)
             {
-                Node nNode = Passages.item(tmp);
+                System.out.println(index);
+                Node nNode = Passages.item(index);
                 if(nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element eElement = (Element) nNode;
                     title = eElement.getElementsByTagName("title").item(0).getTextContent();
@@ -49,21 +48,18 @@ public class RssHandler {
                     pubDate = eElement.getElementsByTagName("pubDate").item(0).getTextContent();
                     creator = eElement.getElementsByTagName("dc:creator").item(0).getTextContent();
                 }
-
+//                System.out.println(index);
                 if(timeMachine.getTime().before(timeMachine.String2Date(pubDate)))
                 {
+//                    System.out.println(index);
                     Passage = "#  " + title + "\n\n" +
                             description + "\n\n\n"+
                             pubDate + "\n\n" +
                             "Written by " + creator + "\n\n" +
                             link;
-                    timeMachine.writeTime(timeMachine.String2Date(pubDate));
+//                    timeMachine.writeTime(timeMachine.String2Date(pubDate));
                     fullContent.add(Passage);
                 }
-                 else {
-                     continue;
-                }
-
             }
         } catch (Exception e) {
             throw new RuntimeException(e);
