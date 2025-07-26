@@ -1,3 +1,4 @@
+import javax.xml.parsers.ParserConfigurationException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -10,11 +11,12 @@ public class HttpHandler {
 
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws ParserConfigurationException {
         String api_type = "send_group_msg";
         JsonHandler jsonHandler;
+        RssHandler rssHandler = new RssHandler();
 
-        jsonHandler = new JsonHandler(api_type, "text", "this is encapsulation message");
+        jsonHandler = new JsonHandler(api_type, "text", rssHandler.getContent());
 
         HttpClient mainClient = HttpClient.newHttpClient();
         HttpRequest mainRequest = HttpRequest.newBuilder()
@@ -32,6 +34,7 @@ public class HttpHandler {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+
 
     }
 }
