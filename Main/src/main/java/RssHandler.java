@@ -15,7 +15,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class RssHandler {
-    static File inputxml = new File("/Users/spriple/Codes/Pbot/PyScraper/phoronix_rss.xml");
+    static File inputxml = new File("./phoronix_rss.xml");
     static DocumentBuilderFactory dbfactory = DocumentBuilderFactory.newInstance();
     String title = "";
     String link = "";
@@ -74,7 +74,7 @@ public class RssHandler {
 }
 
 class timeMachine {
-    File lastTime = new File("/Users/spriple/Codes/Pbot/lastTime.cfg");
+    File lastTime = new File("./lastTime.cfg");
 
     timeMachine(){
 
