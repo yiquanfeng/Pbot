@@ -4,41 +4,46 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
+import java.util.ArrayList;
 
 
 public class HttpHandler {
 //    public JsonHandler jsonHandler;
+//    JsonHandler JsonHandler;
+    static void http_handler(String url, String json){
+        HttpClient mainClient = HttpClient.newHttpClient();
+        HttpRequest mainRequest = HttpRequest.newBuilder()
+                .uri(URI.create(url))
+                .timeout(Duration.ofMinutes(1))
+                .header("SingalContent-Type", "application/json")
+                .POST(HttpRequest.BodyPublishers.ofString(json))
+                .build();
 
+        try {
+            HttpResponse<String> response =
+                    mainClient.send(mainRequest, HttpResponse.BodyHandlers.ofString());
+            System.out.println(response.statusCode());
+            System.out.println(response.body());
+            Thread.sleep(1000); // 20mins
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 
+    void send_private_msg(JsonHandler jsonHandler){
+//        String api_type = "send_private_msg";
+//        http_handler(jsonHandler.url, jsonHandler.getJson());
+
+//        RssHandler rssHandler = new RssHandler();
+//        ArrayList<String> fullContent = rssHandler.getContent();
+//        int limit = fullContent.size();
+//        for (int i=0;i< limit;i++){
+//            JsonHandler = new JsonHandler(api_type, "text", fullContent.get(i));
+//            System.out.println(rssHandler.getContent().size());
+
+    }
 
     public static void main(String[] args) throws ParserConfigurationException {
-        String api_type = "send_group_msg";
-        JsonHandler jsonHandler;
-        RssHandler rssHandler = new RssHandler();
-        int limit = rssHandler.getContent().size();
-        for (int i=0;i< limit;i++){
-            jsonHandler = new JsonHandler(api_type, "text", rssHandler.getContent().get(i));
-            System.out.println(rssHandler.getContent().size());
-            HttpClient mainClient = HttpClient.newHttpClient();
-            HttpRequest mainRequest = HttpRequest.newBuilder()
-                    .uri(URI.create(jsonHandler.url))
-                    .timeout(Duration.ofMinutes(1))
-                    .header("Content-Type", "application/json")
-                    .POST(HttpRequest.BodyPublishers.ofString(jsonHandler.getJson()))
-                    .build();
-
-            try {
-                HttpResponse<String> response =
-                        mainClient.send(mainRequest, HttpResponse.BodyHandlers.ofString());
-                System.out.println(response.statusCode());
-                System.out.println(response.body());
-                Thread.sleep(2*60*1000); // 20mins
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
-        }
-
-
 
     }
 }

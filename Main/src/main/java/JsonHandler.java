@@ -1,65 +1,172 @@
 import com.google.gson.Gson;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 public class JsonHandler {
-    Gson gson = new Gson();
-    GroupMessage gmsg = new GroupMessage();
-    String json = gson.toJson(gmsg);
-    String url = "http://127.0.0.1:3001/{api_type}";
+    static Gson gson = new Gson();
+    String json = "";
+    String url = "http://127.0.0.1:3001/{api}";
+    NodesMessage nodesMessage = new NodesMessage();
     JsonHandler(){
 
     }
 
-    JsonHandler(String apiType, String type, String text){
-        this.url = this.url.replace("{api_type}", apiType);
-        this.gmsg = new GroupMessage(type, text);
-        json = gson.toJson(gmsg);
+    JsonHandler(String user_id, String type, String data, String api){
+        url = url.replace("{api}", api);
+        json = gson.toJson(new SingalMessage(user_id, type, data));
     }
 
-    public String getJson(){
+    JsonHandler(String user_id, String type, String api){
+        url = url.replace("{api}", api);
+        nodesMessage.group_id = user_id;
+    }
+
+    void addNode(String user_id, String nickname, String type, String data){
+        nodesMessage.add(user_id, nickname, type, data);
+    }
+
+    public String getNodeJson(){
+        json = gson.toJson(nodesMessage);
         return json;
     }
     public static void main(String[] args){
-        JsonHandler hsn = new JsonHandler("send_group_msg", "text", "this is encapsulation message");
-        System.out.println(hsn.getJson());
+//        NodesMessage nodes = new NodesMessage("1572087810");
+//        nodes.add("1572087810", "yqf", "text", "xdd is handsome");
+//        System.out.println(JsonHandler.gson.toJson(nodes));
     }
 }
 
-class GroupMessage {
-    String group_id = "1055065019";
-    ArrayList<Message> message = new ArrayList<>();
 
-    GroupMessage(){
-        message.add(new Message("text", "default text"));
+class NodesMessage {
+    String group_id = "";
+    List<NodeContent> message = new ArrayList<>();
+
+    NodesMessage(){
+
     }
-    // default is the linux group
-    GroupMessage(String type, String text){
-        message.add(new Message(type, text));
-    }
-    // choose the pacific group
-    GroupMessage(String group_id, String type, String text){
+    NodesMessage(String group_id){
         this.group_id = group_id;
-        message.add(new Message(type, text));
+    }
+
+    void add(String user_id, String nickname, String type, String data){
+        NodeContent tmp1 = new NodeContent(user_id, nickname);
+        SingalContent tmp2 = new SingalContent(type, data);
+        tmp1.add(tmp2);
+        message.add(tmp1);
     }
 }
 
-class Message {
-    String type = "default text";
-    Data data = new Data("default text");
-    Message(String type, String text) {
+//class groupNodesMessage {
+//    String group_id = "";
+//    List<NodeContent> message = new ArrayList<>();
+//
+//    groupNodesMessage(){
+//
+//    }
+//    groupNodesMessage(String group_id){
+//        this.group_id = group_id;
+//    }
+//
+//    void add(String group_id, String nickname, String type, String data){
+//        NodeContent tmp1 = new NodeContent(group_id, nickname);
+//        SingalContent tmp2 = new SingalContent(type, data);
+//        tmp1.add(tmp2);
+//        message.add(tmp1);
+//    }
+//}
+
+class SingalMessage {
+    String user_id = "";
+    List<SingalContent> message = new ArrayList<>();
+//    NodeContent nodeMsg = new NodeContent();
+//    String jsonMsg = JsonHandler.gson.toJson(Msg);
+
+    SingalMessage(String user_id, String type, String data) {
+        this.user_id = user_id;
+        this.message.add(new SingalContent(type, data));
+    }
+
+}
+
+//class groupSingalMessage {
+//    String group_id = "";
+//    List<SingalContent> message = new ArrayList<>();
+////    NodeContent nodeMsg = new NodeContent();
+////    String jsonMsg = JsonHandler.gson.toJson(Msg);
+//
+//    groupSingalMessage(String group_id, String type, String data) {
+//        this.group_id = group_id;
+//        this.message.add(new SingalContent(type, data));
+//    }
+//
+//}
+
+class NodeContent {
+    String type = "node";
+    Node data = new Node();
+
+    NodeContent(){
+
+    }
+    NodeContent(String user_id, String nickname){
+        this.data.set(user_id, nickname);
+    }
+
+    void add(SingalContent content){
+        this.data.add(content);
+    }
+}
+
+class Node {
+    String user_id = "";
+    String nickname = "";
+    List<SingalContent> content = new ArrayList<>();
+    Node() {
+
+    }
+    Node(String user_id, String nickname){
+        this.user_id = user_id;
+        this.nickname = nickname;
+    }
+
+    void set(String user_id, String nickname){
+        this.user_id = user_id;
+        this.nickname = nickname;
+    }
+
+    void add(SingalContent toAdd){
+        content.add(toAdd);
+    }
+}
+
+class SingalContent {
+    String type = "";
+    Map<String, String> data = new LinkedHashMap<>();
+
+    SingalContent(){
+
+    }
+
+    SingalContent(String type, String content){
+        if (type.equals("text"))
+        {
+            this.data.put("text", content);
+        }
+        else {
+            System.out.println("not text");
+        }
         this.type = type;
-        this.data.text = text;
     }
-}
 
-class Data {
-    public String text;
-    Data(String text){
-        this.text = text;
+    void set(String type, String content){
+        if (type.equals("text"))
+        {
+            this.data.put("text", content);
+        }
+        else {
+            System.out.println("not text");
+        }
+        this.type = type;
     }
 }

@@ -73,6 +73,126 @@ div.folder &gt; span.hidden {
 		<description>Linux Hardware Reviews, Performance Benchmarks &amp; Open-Source / Free Software News</description>
 		<language>en-us</language>
 	  <item>
+   <title>Intel QAT Accelerators Being Demoted On Linux By FSCRYPT: Bug Prone &amp; Slow</title>
+   <link>https://www.phoronix.com/news/Intel-QAT-FSCRYPT-Linux-6.17</link>
+   <guid>https://www.phoronix.com/news/Intel-QAT-FSCRYPT-Linux-6.17</guid>
+   <description>Intel's accelerator efforts in recent generations of Xeon processors have been challenging to say the least. From limited software support and configuration obstacles to some current-generation accelerators not being safe for VM use due to security issues to having to deal with higher latency and other nuances if wanting to achieve decent performance. One of the Linux kernel users of Intel's QuickAssist Technology "QAT" accelerators has been the FSCRYPT code for native file encryption support. But the Linux kernel with the FSCRYPT usage is now demoting the Intel QAT accelerator support along with other problem-causing accelerator drivers...</description>
+   <pubDate>Mon, 28 Jul 2025 07:12:18 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>Rockchip NPU Driver "Rocket" Expected By Linux 6.18, Mesa 25.3 Brings User-Space Code</title>
+   <link>https://www.phoronix.com/news/Rockchip-NPU-Linux-Mesa</link>
+   <guid>https://www.phoronix.com/news/Rockchip-NPU-Linux-Mesa</guid>
+   <description>The open-source, reverse-engineered Rockchip NPU driver "Rocket" developed by Tomeu Vizoso will soon be in the mainline kernel. The Rocket Gallium3D driver was also merged today for Mesa 25.3 in the user-space code for their AI accelerator support...</description>
+   <pubDate>Mon, 28 Jul 2025 06:40:29 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>Linux 6.17 Power Management Refines Async Suspend/Resume, Adds More Intel Hardware</title>
+   <link>https://www.phoronix.com/news/Linux-6.17-PM</link>
+   <guid>https://www.phoronix.com/news/Linux-6.17-PM</guid>
+   <description>Among the number of early pull requests submitted in advance for the Linux 6.17 merge window were all the power management updates as well as to related areas like ACPI and thermal control drivers...</description>
+   <pubDate>Mon, 28 Jul 2025 06:24:07 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>Ubuntu 25.10 TPM-Backed Full Disk Encryption Will Be Considered Experimental</title>
+   <link>https://www.phoronix.com/news/Ubuntu-25.10-TPM-FDE</link>
+   <guid>https://www.phoronix.com/news/Ubuntu-25.10-TPM-FDE</guid>
+   <description>For the past two years Ubuntu developers have been talking about adding TPM-based full disk encryption to the installer for those wanting to leverage their system's Trusted Platform Module 2.0 capabilities to enhance security. It looks like for Ubuntu 25.10 this October that support will finally be in good shape...</description>
+   <pubDate>Mon, 28 Jul 2025 06:07:01 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>Intel Panther Lake Perf Integration Ready For Linux 6.17</title>
+   <link>https://www.phoronix.com/news/LInux-6.17-Intel-Perf-PTL</link>
+   <guid>https://www.phoronix.com/news/LInux-6.17-Intel-Perf-PTL</guid>
+   <description>The Linux support for Intel's next-generation Panther Lake SoCs appears to be largely set with Linux 6.16 ahead of the Core Ultra Series 3 laptops debuting in the coming months. There are though a few stragglers of Panther Lake support such as the performance events code in Linux 6.17 only now landing the perf integration...</description>
+   <pubDate>Mon, 28 Jul 2025 05:55:39 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>GNU Linux-libre 6.16 Fights Firmware In Nouveau, NOVA, Ath12k &amp; Other Drivers</title>
+   <link>https://www.phoronix.com/news/GNU-Linux-Libre-6.16</link>
+   <guid>https://www.phoronix.com/news/GNU-Linux-Libre-6.16</guid>
+   <description>Following the Linux 6.16 kernel release from Sunday evening, GNU Linux-libre 6.16-gnu is now available for that kernel downstream that strips out driver/kernel code dependent upon non-free-software microcode/firmware, the ability to load proprietary kernel modules, and carving out other bits of the Linux kernel not meeting their stringent free software standards...</description>
+   <pubDate>Mon, 28 Jul 2025 05:40:26 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>Linux 6.16 Released - Better Performance, NVIDIA Blackwell Open-Source &amp; Intel APX</title>
+   <link>https://www.phoronix.com/news/Linux-6.16-Released</link>
+   <guid>https://www.phoronix.com/news/Linux-6.16-Released</guid>
+   <description>As anticipated the Linux 6.16 kernel was promoted to stable. Linux 6.16 now greets the world with various performance improvements, NVIDIA Hopper and Blackwell open-source GPU driver support in Nouveau, Intel Advanced Performance Extensions (APX) preparations, and many other exciting enhancements...</description>
+   <pubDate>Sun, 27 Jul 2025 17:31:11 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>AMD Kernel Graphics Driver Exceeds 5.9 Million Lines In Linux 6.16</title>
+   <link>https://www.phoronix.com/news/Linux-6.16-AMDGPU-Driver-Size</link>
+   <guid>https://www.phoronix.com/news/Linux-6.16-AMDGPU-Driver-Size</guid>
+   <description>The modern AMD Kernel graphics driver consisting of AMDGPU, the AMDKFD compute code, and associated infrastructure continues to easily be the largest mainline open-source driver. With the Linux 6.16 kernel debuting as stable as soon as later today, the AMD kernel graphics driver cracks the 5.9 million line threshold. In comparison, the entire Linux kernel source tree comes in at..</description>
+   <pubDate>Sun, 27 Jul 2025 11:26:00 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>Linux 6.17 Introducing Support For The NVIDIA Tegra T264/Thor, New RISC-V SoCs</title>
+   <link>https://www.phoronix.com/news/Linux-6.17-SoCs</link>
+   <guid>https://www.phoronix.com/news/Linux-6.17-SoCs</guid>
+   <description>In advance of the Linux 6.17 merge window expected to open soon following the Linux 6.16 release, all of the SoC updates have been submitted to Linus Torvalds for this next kernel version...</description>
+   <pubDate>Sun, 27 Jul 2025 09:55:55 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>New Ubuntu Concept Snapdragon X Laptop ISOs Published - Your Mileage May Vary</title>
+   <link>https://www.phoronix.com/news/Ubuntu-25.04-Concept-X1-2</link>
+   <guid>https://www.phoronix.com/news/Ubuntu-25.04-Concept-X1-2</guid>
+   <description>A few days back I wrote about Canonical releasing new Ubuntu 25.04 "Concept" ISOs for the Snapdragon X laptops with the new install images being re-based to the Linux 6.16 kernel and expanding the device support. But as I found out from my own testing, depending upon the laptop the support was still less than ideal. Since then there have been two more ISO releases and addressing one of my show-stopping problems albeit encountering another...</description>
+   <pubDate>Sun, 27 Jul 2025 08:37:25 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>GNU Binutils 2.45 Released With Continued Work Around SFrame Stack Tracing</title>
+   <link>https://www.phoronix.com/news/GNU-Binutils-2.45</link>
+   <guid>https://www.phoronix.com/news/GNU-Binutils-2.45</guid>
+   <description>GNU Binutils 2.45 was released on Sunday morning as the newest version of this set of open-source binary tools...</description>
+   <pubDate>Sun, 27 Jul 2025 06:43:00 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>AMD SEV Optimizations Ready For Linux 6.17 Plus A 10x Improvement For Intel TDX</title>
+   <link>https://www.phoronix.com/news/AMD-SEV-Optimizations-Linux-617</link>
+   <guid>https://www.phoronix.com/news/AMD-SEV-Optimizations-Linux-617</guid>
+   <description>There are a few AMD Secure Encrypted Virtualization improvements on the way for the Linux 6.17 kernel worth noting...</description>
+   <pubDate>Sun, 27 Jul 2025 06:29:00 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>Shotcut 25.07 Video Editor Brings Numerous Improvements</title>
+   <link>https://www.phoronix.com/news/Shotcut-25.07-Released</link>
+   <guid>https://www.phoronix.com/news/Shotcut-25.07-Released</guid>
+   <description>Shotcut 25.07 is out today as the newest feature release for this prominent open-source and cross-platform video editing solution...</description>
+   <pubDate>Sun, 27 Jul 2025 06:04:25 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>Linux 6.17 Looks To Address An Old &amp; Obscure Kernel Limitation From 1993</title>
+   <link>https://www.phoronix.com/news/Linux-6.17-Execve</link>
+   <guid>https://www.phoronix.com/news/Linux-6.17-Execve</guid>
+   <description>Assuming no objections are raised by Linus Torvalds, an early pull request has been submitted for the upcoming Linux 6.17 merge window to address an obscure kernel limitation that has been in place going back  all the way to 1993 during the Linux v0.99 kernel days...</description>
+   <pubDate>Sat, 26 Jul 2025 20:34:49 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
+   <title>Qualcomm Prepares IFPC Feature For Adreno X1-85 GPU With The Snapdragon X Laptops</title>
+   <link>https://www.phoronix.com/news/Qualcomm-Adreno-IFPC</link>
+   <guid>https://www.phoronix.com/news/Qualcomm-Adreno-IFPC</guid>
+   <description>This past week Qualcomm sent out a set of 17 patches for the MSM DRM kernel graphics driver for enabling support for the Inter Frame Power Collapse (IFPC) feature with the X1-85 GPU found in the current Snapdragon X laptops...</description>
+   <pubDate>Sat, 26 Jul 2025 12:37:58 -0400</pubDate>
+   <dc:creator>Michael Larabel</dc:creator>
+  </item>
+  <item>
    <title>Linux 6.17 Sound Code Prepares For Upcoming AMD Hardware</title>
    <link>https://www.phoronix.com/news/Linux-6.17-Sound</link>
    <guid>https://www.phoronix.com/news/Linux-6.17-Sound</guid>
@@ -201,131 +321,11 @@ div.folder &gt; span.hidden {
    <dc:creator>Michael Larabel</dc:creator>
   </item>
   <item>
-   <title>Red Hat Has Been Rewriting Bash-Based Greenboot In Rust</title>
-   <link>https://www.phoronix.com/news/Greenboot-Bash-Rust</link>
-   <guid>https://www.phoronix.com/news/Greenboot-Bash-Rust</guid>
-   <description>Greenboot is a generic health check framework for systemd on RPM-OSTree based Linux distributions. Red Hat engineers have worked on Greenboot as part of the likes of Fedora IoT and their other RPM-OSTree initiatives for checking on the overall system health with ease...</description>
-   <pubDate>Fri, 25 Jul 2025 06:25:26 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>Fedora 43 Looks To Offer Support For The Hare Programming Language</title>
-   <link>https://www.phoronix.com/news/Fedora-43-Hare-Programming</link>
-   <guid>https://www.phoronix.com/news/Fedora-43-Hare-Programming</guid>
-   <description>Fedora 43 is looking to offer packages to support the Hare system programming language...</description>
-   <pubDate>Fri, 25 Jul 2025 06:09:17 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>Vulkan + Mesa Drivers For AI Inferencing? It's Already Showing Potential On Radeon RADV</title>
-   <link>https://www.phoronix.com/news/Mesa-Vulkan-AI-RADV-Potential</link>
-   <guid>https://www.phoronix.com/news/Mesa-Vulkan-AI-RADV-Potential</guid>
-   <description>Following the Vulkanised 2025 presentation how NVIDIA is finding great success with Vulkan for AI / machine learning and already competitive to CUDA in some areas, Red Hat engineer and DRM subsystem lead maintainer David Airlie began exploring the potential of Mesa Vulkan drivers for AI inferencing. He was successful in using the Intel ANV, NVIDIA NVK, and Radeon RADV drivers for Vulkan-based AI inferencing while for the Radeon hardware tested is where it's showing the most potential (performance) at the moment and for even competing with the ROCm compute stack...</description>
-   <pubDate>Thu, 24 Jul 2025 19:42:00 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>New AMD Linux Driver Ushers In Seamless Firmware Servicing "SFS"</title>
-   <link>https://www.phoronix.com/news/AMD-Seamless-Firmware-Servicing</link>
-   <guid>https://www.phoronix.com/news/AMD-Seamless-Firmware-Servicing</guid>
-   <description>A new Linux driver patch series posted by AMD today introduces a new kernel driver "SFS" for Seamless Firmware Servicing. I hadn't heard AMD talk about Seamless Firmware Servicing at any previous events but it appears to be supported for current-generation AMD EPYC 5th Gen "Turin" processors...</description>
-   <pubDate>Thu, 24 Jul 2025 17:58:57 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>Linux 6.16 Brings Some Minor Performance Boosts For Strix Halo's Radeon Graphics</title>
-   <link>https://www.phoronix.com/news/Strix-Halo-Linux-6.16</link>
-   <guid>https://www.phoronix.com/news/Strix-Halo-Linux-6.16</guid>
-   <description>With the Linux 6.16 kernel that will be debuting as stable as soon as this coming Sunday there are some minor performance benefits for the Radeon integrated graphics with the incredible Strix Halo SoC. Here are some comparison benchmarks of Linux 6.15 vs. Linux 6.16 Git for the AMD Radeon graphics of the Ryzen AI Max+ 395 with the HP ZBook Ultra G1a laptop...</description>
-   <pubDate>Thu, 24 Jul 2025 11:29:00 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>Ubuntu Concept For Snapdragon X1 Laptops Moves To Linux 6.16, Enables More Devices</title>
-   <link>https://www.phoronix.com/news/Ubuntu-Concept-Linux-6.16-X1E</link>
-   <guid>https://www.phoronix.com/news/Ubuntu-Concept-Linux-6.16-X1E</guid>
-   <description>The Ubuntu Concept ISO images that contain experimental patches -- or "hacks" to make things work -- to enable Ubuntu Linux on the Qualcomm Snapdragon X1 Elite powered laptops is out with a fresh spin. The new Ubuntu Concept ISOs move to using the Linux 6.16 kernel while also enabling some additional Snapdragon X laptop models...</description>
-   <pubDate>Thu, 24 Jul 2025 08:52:36 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>Mesa 25.3 Merges Vulkan AMD Anti-Lag Support</title>
-   <link>https://www.phoronix.com/news/Mesa-Vulkan-AMD-Anti-Lag</link>
-   <guid>https://www.phoronix.com/news/Mesa-Vulkan-AMD-Anti-Lag</guid>
-   <description>An exciting addition landing into the Mesa 25.3 codebase today is support for AMD's Vulkan anti-lag extension, VK_AMD_anti_lag...</description>
-   <pubDate>Thu, 24 Jul 2025 06:49:03 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>AMD RadeonSI Driver Enables OpenGL Sparse Texture Support For RDNA4 GPUs</title>
-   <link>https://www.phoronix.com/news/RadeonSI-RDNA4-Sparse-Textures</link>
-   <guid>https://www.phoronix.com/news/RadeonSI-RDNA4-Sparse-Textures</guid>
-   <description>Well known open-source AMD Mesa developer Marek Olšák has landed his latest set of 16 patches into Mesa 25.3-devel for enhancing the RadeonSI Gallium3D driver. Notable here is getting OpenGL sparse textures working on the latest Radeon RX 9000 series RDNA4/GFX12 graphics cards...</description>
-   <pubDate>Thu, 24 Jul 2025 06:41:32 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>The Linux Kernel Seeing Rare Code Activity Around SPARC64</title>
-   <link>https://www.phoronix.com/news/Linux-SPARC64-vDSO-Library</link>
-   <guid>https://www.phoronix.com/news/Linux-SPARC64-vDSO-Library</guid>
-   <description>One of the CPU architectures continuing to be supported by the mainline Linux kernel but rarely ever seeing any code activity is the SPARC64 architecture port for the once-interesting processors from Sun Microsystems...</description>
-   <pubDate>Thu, 24 Jul 2025 06:25:00 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>Valve Linux Engineer Working On A Big Improvement For Old AMD Radeon GPUs</title>
-   <link>https://www.phoronix.com/news/AMDGPU-DC-Analog-GCN-1.0-1.1</link>
-   <guid>https://www.phoronix.com/news/AMDGPU-DC-Analog-GCN-1.0-1.1</guid>
-   <description>Timur Kristóf as a contractor on Valve's open-source Linux graphics driver team is known for his work on the RADV Vulkan driver and ACO shader compiler but recently he's been working on some improvements to the AMDGPU kernel driver. A big feat he's been tackling is enabling support for analog display connectors within the AMDGPU driver for the "DC" code. Besides a few supported older GPUs having DVI-I connections, this analog support is significant in that it's a milestone for unblocking the aging GCN 1.0 and GCN 1.1 GPUs from using the modern AMDGPU driver by default...</description>
-   <pubDate>Wed, 23 Jul 2025 20:32:00 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>GNOME Foundry Taking Shape As "An IDE In A Box" With CLI Tooling</title>
-   <link>https://www.phoronix.com/news/GNOME-Builder-Foundry-2025</link>
-   <guid>https://www.phoronix.com/news/GNOME-Builder-Foundry-2025</guid>
-   <description>Born out of his work on developing the GNOME Builder integrated development environment (IDE) over the past decade, one of the recent initiatives by GNOME developer Christian Hergert has been on Foundry, a new "IDE in a box" of sorts and with CLI tooling complementary to the GNOME Builder IDE graphical environment...</description>
-   <pubDate>Wed, 23 Jul 2025 16:38:00 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
    <title>AMD Strix Point Linux Performance Comparison One Year After Launch</title>
    <link>https://www.phoronix.com/review/amd-strix-point-2025</link>
    <guid>https://www.phoronix.com/review/amd-strix-point-2025</guid>
    <description>How time flies... This week already marks one year since the debut of AMD's Zen 5 Strix Point laptop processors with the likes of the Ryzen AI 9 HX 370 and Ryzen AI 9 365 that also rolled out the RDNA 3.5 integrated graphics. In marking one year that Strix Point laptops have been available, here is a performance benchmarking redux of the AMD Ryzen AI 9 HX 370 with the ASUS Zenbook S16 for looking at how the Linux performance at launch-day compares to a very leading-edge Linux software stack now one year later.</description>
    <pubDate>Wed, 23 Jul 2025 14:50:00 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>Wayback 0.1 Released As First Preview Release For X11 Compatibility Layer</title>
-   <link>https://www.phoronix.com/news/Wayback-0.1-Released</link>
-   <guid>https://www.phoronix.com/news/Wayback-0.1-Released</guid>
-   <description>Announced just once month ago was Wayback as an X11 compatibility layer build atop Wayland components. In the past month Wayback has been off to a quick start with a goal of being production-ready next year and has also already became a project under the FreeDesktop.org umbrella. Today marks the release of Wayback 0.1 as the first preview release for this X11 compatibility layer...</description>
-   <pubDate>Wed, 23 Jul 2025 14:46:50 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>systemd 258-rc1 Is A Massive Feature Release With New Tools, More Than 260 Changes</title>
-   <link>https://www.phoronix.com/news/systemd-258-rc1</link>
-   <guid>https://www.phoronix.com/news/systemd-258-rc1</guid>
-   <description>Systemd 257 debuted last December and now finally systemd 258 is preparing to roll out... Systemd 258-rc1 was issued today as the first test release toward this next major release. It's a big one with more than 260 changes noted in the announcement, including multiple new tools and other additions...</description>
-   <pubDate>Wed, 23 Jul 2025 14:00:59 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>Zed Editor's Newest Feature: Being Able To Disable All AI Features</title>
-   <link>https://www.phoronix.com/news/Zed-Option-Disable-AI-Features</link>
-   <guid>https://www.phoronix.com/news/Zed-Option-Disable-AI-Features</guid>
-   <description>The Zed open-source code editor that is written in Rust, has begun supporting Linux rather well, and has continued tacking on new features to assist developer workflows has introduced another new feature: the ability to easily disable all AI features...</description>
-   <pubDate>Wed, 23 Jul 2025 12:00:00 -0400</pubDate>
-   <dc:creator>Michael Larabel</dc:creator>
-  </item>
-  <item>
-   <title>Blender Now Supports Properly Importing &amp; Exporting HDR Videos</title>
-   <link>https://www.phoronix.com/news/Blender-HDR-Video-Import-Export</link>
-   <guid>https://www.phoronix.com/news/Blender-HDR-Video-Import-Export</guid>
-   <description>In addition to Blender 5.0 supporting HDR on Linux when using the Vulkan API and with Wayland, another important high dynamic range (HDR) milestone landed this week into Blender: the ability to both import and export HDR videos...</description>
-   <pubDate>Wed, 23 Jul 2025 11:47:27 -0400</pubDate>
    <dc:creator>Michael Larabel</dc:creator>
   </item>
 </channel>
@@ -336,6 +336,126 @@ div.folder &gt; span.hidden {
 		</span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Linux Hardware Reviews, Performance Benchmarks &amp; Open-Source / Free Software News</span><span class="html-tag">&lt;/description&gt;</span></div><span>
 		</span><div class="line"><span class="html-tag">&lt;language&gt;</span><span>en-us</span><span class="html-tag">&lt;/language&gt;</span></div><span>
 	  </span><div class="folder" id="folder2"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Intel QAT Accelerators Being Demoted On Linux By FSCRYPT: Bug Prone &amp; Slow</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Intel-QAT-FSCRYPT-Linux-6.17</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Intel-QAT-FSCRYPT-Linux-6.17</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Intel's accelerator efforts in recent generations of Xeon processors have been challenging to say the least. From limited software support and configuration obstacles to some current-generation accelerators not being safe for VM use due to security issues to having to deal with higher latency and other nuances if wanting to achieve decent performance. One of the Linux kernel users of Intel's QuickAssist Technology "QAT" accelerators has been the FSCRYPT code for native file encryption support. But the Linux kernel with the FSCRYPT usage is now demoting the Intel QAT accelerator support along with other problem-causing accelerator drivers...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Mon, 28 Jul 2025 07:12:18 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder3"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Rockchip NPU Driver "Rocket" Expected By Linux 6.18, Mesa 25.3 Brings User-Space Code</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Rockchip-NPU-Linux-Mesa</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Rockchip-NPU-Linux-Mesa</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>The open-source, reverse-engineered Rockchip NPU driver "Rocket" developed by Tomeu Vizoso will soon be in the mainline kernel. The Rocket Gallium3D driver was also merged today for Mesa 25.3 in the user-space code for their AI accelerator support...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Mon, 28 Jul 2025 06:40:29 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder4"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.17 Power Management Refines Async Suspend/Resume, Adds More Intel Hardware</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-PM</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-PM</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Among the number of early pull requests submitted in advance for the Linux 6.17 merge window were all the power management updates as well as to related areas like ACPI and thermal control drivers...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Mon, 28 Jul 2025 06:24:07 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder5"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Ubuntu 25.10 TPM-Backed Full Disk Encryption Will Be Considered Experimental</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Ubuntu-25.10-TPM-FDE</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Ubuntu-25.10-TPM-FDE</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>For the past two years Ubuntu developers have been talking about adding TPM-based full disk encryption to the installer for those wanting to leverage their system's Trusted Platform Module 2.0 capabilities to enhance security. It looks like for Ubuntu 25.10 this October that support will finally be in good shape...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Mon, 28 Jul 2025 06:07:01 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder6"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Intel Panther Lake Perf Integration Ready For Linux 6.17</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/LInux-6.17-Intel-Perf-PTL</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/LInux-6.17-Intel-Perf-PTL</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>The Linux support for Intel's next-generation Panther Lake SoCs appears to be largely set with Linux 6.16 ahead of the Core Ultra Series 3 laptops debuting in the coming months. There are though a few stragglers of Panther Lake support such as the performance events code in Linux 6.17 only now landing the perf integration...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Mon, 28 Jul 2025 05:55:39 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder7"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>GNU Linux-libre 6.16 Fights Firmware In Nouveau, NOVA, Ath12k &amp; Other Drivers</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/GNU-Linux-Libre-6.16</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/GNU-Linux-Libre-6.16</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Following the Linux 6.16 kernel release from Sunday evening, GNU Linux-libre 6.16-gnu is now available for that kernel downstream that strips out driver/kernel code dependent upon non-free-software microcode/firmware, the ability to load proprietary kernel modules, and carving out other bits of the Linux kernel not meeting their stringent free software standards...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Mon, 28 Jul 2025 05:40:26 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder8"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.16 Released - Better Performance, NVIDIA Blackwell Open-Source &amp; Intel APX</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.16-Released</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.16-Released</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>As anticipated the Linux 6.16 kernel was promoted to stable. Linux 6.16 now greets the world with various performance improvements, NVIDIA Hopper and Blackwell open-source GPU driver support in Nouveau, Intel Advanced Performance Extensions (APX) preparations, and many other exciting enhancements...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sun, 27 Jul 2025 17:31:11 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder9"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>AMD Kernel Graphics Driver Exceeds 5.9 Million Lines In Linux 6.16</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.16-AMDGPU-Driver-Size</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.16-AMDGPU-Driver-Size</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>The modern AMD Kernel graphics driver consisting of AMDGPU, the AMDKFD compute code, and associated infrastructure continues to easily be the largest mainline open-source driver. With the Linux 6.16 kernel debuting as stable as soon as later today, the AMD kernel graphics driver cracks the 5.9 million line threshold. In comparison, the entire Linux kernel source tree comes in at..</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sun, 27 Jul 2025 11:26:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder10"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.17 Introducing Support For The NVIDIA Tegra T264/Thor, New RISC-V SoCs</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-SoCs</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-SoCs</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>In advance of the Linux 6.17 merge window expected to open soon following the Linux 6.16 release, all of the SoC updates have been submitted to Linus Torvalds for this next kernel version...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sun, 27 Jul 2025 09:55:55 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder11"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>New Ubuntu Concept Snapdragon X Laptop ISOs Published - Your Mileage May Vary</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Ubuntu-25.04-Concept-X1-2</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Ubuntu-25.04-Concept-X1-2</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>A few days back I wrote about Canonical releasing new Ubuntu 25.04 "Concept" ISOs for the Snapdragon X laptops with the new install images being re-based to the Linux 6.16 kernel and expanding the device support. But as I found out from my own testing, depending upon the laptop the support was still less than ideal. Since then there have been two more ISO releases and addressing one of my show-stopping problems albeit encountering another...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sun, 27 Jul 2025 08:37:25 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder12"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>GNU Binutils 2.45 Released With Continued Work Around SFrame Stack Tracing</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/GNU-Binutils-2.45</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/GNU-Binutils-2.45</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>GNU Binutils 2.45 was released on Sunday morning as the newest version of this set of open-source binary tools...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sun, 27 Jul 2025 06:43:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder13"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>AMD SEV Optimizations Ready For Linux 6.17 Plus A 10x Improvement For Intel TDX</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/AMD-SEV-Optimizations-Linux-617</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/AMD-SEV-Optimizations-Linux-617</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>There are a few AMD Secure Encrypted Virtualization improvements on the way for the Linux 6.17 kernel worth noting...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sun, 27 Jul 2025 06:29:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder14"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Shotcut 25.07 Video Editor Brings Numerous Improvements</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Shotcut-25.07-Released</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Shotcut-25.07-Released</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Shotcut 25.07 is out today as the newest feature release for this prominent open-source and cross-platform video editing solution...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sun, 27 Jul 2025 06:04:25 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder15"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.17 Looks To Address An Old &amp; Obscure Kernel Limitation From 1993</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Execve</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Execve</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Assuming no objections are raised by Linus Torvalds, an early pull request has been submitted for the upcoming Linux 6.17 merge window to address an obscure kernel limitation that has been in place going back  all the way to 1993 during the Linux v0.99 kernel days...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 20:34:49 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder16"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Qualcomm Prepares IFPC Feature For Adreno X1-85 GPU With The Snapdragon X Laptops</span><span class="html-tag">&lt;/title&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Qualcomm-Adreno-IFPC</span><span class="html-tag">&lt;/link&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Qualcomm-Adreno-IFPC</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>This past week Qualcomm sent out a set of 17 patches for the MSM DRM kernel graphics driver for enabling support for the Inter Frame Power Collapse (IFPC) feature with the X1-85 GPU found in the current Snapdragon X laptops...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 12:37:58 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
+   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
+  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
+  </span><div class="folder" id="folder17"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.17 Sound Code Prepares For Upcoming AMD Hardware</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Sound</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Sound</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -343,7 +463,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 09:47:54 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder3"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder18"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>FFmpeg 8.0 Preparing For Release In August With Many Great Features</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/FFmpeg-8.0-Coming-Soon</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/FFmpeg-8.0-Coming-Soon</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -351,7 +471,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 07:01:11 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder4"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder19"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux's Modern NTFS Driver Will Now Correctly Handle Symlinks Created On Windows</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-NTFS3-Correct-Symlinks</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-NTFS3-Correct-Symlinks</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -359,7 +479,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 06:44:12 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder5"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder20"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.17 To Support Arm's BRBE</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-ARM64</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-ARM64</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -367,7 +487,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 06:33:47 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder6"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder21"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Intel oneDNN 3.9 Making More Preparations For Xe3, Nova Lake &amp; Diamond Rapids</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Intel-oneDNN-3.9-RC</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Intel-oneDNN-3.9-RC</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -375,7 +495,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 06:19:28 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder7"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder22"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>KDE Plasma 6.5 Adds Notifications For Low Printer Ink Levels</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Plasma-6.5-Low-Printer-Ink</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Plasma-6.5-Low-Printer-Ink</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -383,7 +503,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Sat, 26 Jul 2025 00:00:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder8"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder23"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.17 Will Be Exciting With Intel "Project Battlematrix" GPU Driver Changes &amp; More</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Early-Features</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Early-Features</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -391,7 +511,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 20:36:48 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder9"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder24"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux Kernel Proposal Documents Rules For Using AI Coding Assistants</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-Kernel-AI-Docs-Rules</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-Kernel-AI-Docs-Rules</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -399,7 +519,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 14:46:11 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder10"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder25"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux Will Finally Be Able To Reboot Apple M1/M2 Macs With The v6.17 Kernel</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Apple-SMC</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.17-Apple-SMC</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -407,7 +527,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 14:19:17 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder11"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder26"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Final Benchmarks Of Clear Linux On Intel: ~48% Faster Than Ubuntu Out-Of-The-Box</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/review/clear-linux-48p-ubuntu</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/review/clear-linux-48p-ubuntu</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -415,7 +535,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 13:00:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder12"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder27"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Intel Quietly Sunset Its PlaidML Open-Source Deep Learning Software</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Intel-PlaidML-Archived</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Intel-PlaidML-Archived</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -423,7 +543,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 12:53:11 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder13"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder28"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.16 Is Exciting For Open-Source NVIDIA, OpenVPN DCO &amp; More Performance</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-6.16-Features-Reminder</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-6.16-Features-Reminder</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -431,7 +551,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 12:30:30 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder14"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder29"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Bcachefs Lands Last Minute Fixes For Linux 6.16</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Bcachefs-Last-Minute-Linux-6.16</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Bcachefs-Last-Minute-Linux-6.16</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -439,7 +559,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 12:10:44 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder15"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder30"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Threadripper 9000 Series Available On 31 July, 9980X For $4999 USD</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/AMD-Threadripper-9000-31-July</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/AMD-Threadripper-9000-31-July</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -447,7 +567,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 09:58:24 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder16"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder31"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Fedora Considers Reducing The Scope That BIOS Systems Can Hold Up A Release</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Fedora-Non-UEFI-BIOS-Scope</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Fedora-Non-UEFI-BIOS-Scope</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -455,7 +575,7 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 08:49:08 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder17"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder32"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Ayn Gaming Handhelds To See Better Linux Support With New Open-Source Driver</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Ayn-Handhelds-Linux-Driver</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Ayn-Handhelds-Linux-Driver</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
@@ -463,132 +583,12 @@ div.folder &gt; span.hidden {
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 06:41:46 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder18"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Red Hat Has Been Rewriting Bash-Based Greenboot In Rust</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Greenboot-Bash-Rust</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Greenboot-Bash-Rust</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Greenboot is a generic health check framework for systemd on RPM-OSTree based Linux distributions. Red Hat engineers have worked on Greenboot as part of the likes of Fedora IoT and their other RPM-OSTree initiatives for checking on the overall system health with ease...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 06:25:26 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder19"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Fedora 43 Looks To Offer Support For The Hare Programming Language</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Fedora-43-Hare-Programming</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Fedora-43-Hare-Programming</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Fedora 43 is looking to offer packages to support the Hare system programming language...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Fri, 25 Jul 2025 06:09:17 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder20"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Vulkan + Mesa Drivers For AI Inferencing? It's Already Showing Potential On Radeon RADV</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Mesa-Vulkan-AI-RADV-Potential</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Mesa-Vulkan-AI-RADV-Potential</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Following the Vulkanised 2025 presentation how NVIDIA is finding great success with Vulkan for AI / machine learning and already competitive to CUDA in some areas, Red Hat engineer and DRM subsystem lead maintainer David Airlie began exploring the potential of Mesa Vulkan drivers for AI inferencing. He was successful in using the Intel ANV, NVIDIA NVK, and Radeon RADV drivers for Vulkan-based AI inferencing while for the Radeon hardware tested is where it's showing the most potential (performance) at the moment and for even competing with the ROCm compute stack...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 19:42:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder21"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>New AMD Linux Driver Ushers In Seamless Firmware Servicing "SFS"</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/AMD-Seamless-Firmware-Servicing</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/AMD-Seamless-Firmware-Servicing</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>A new Linux driver patch series posted by AMD today introduces a new kernel driver "SFS" for Seamless Firmware Servicing. I hadn't heard AMD talk about Seamless Firmware Servicing at any previous events but it appears to be supported for current-generation AMD EPYC 5th Gen "Turin" processors...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 17:58:57 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder22"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Linux 6.16 Brings Some Minor Performance Boosts For Strix Halo's Radeon Graphics</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Strix-Halo-Linux-6.16</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Strix-Halo-Linux-6.16</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>With the Linux 6.16 kernel that will be debuting as stable as soon as this coming Sunday there are some minor performance benefits for the Radeon integrated graphics with the incredible Strix Halo SoC. Here are some comparison benchmarks of Linux 6.15 vs. Linux 6.16 Git for the AMD Radeon graphics of the Ryzen AI Max+ 395 with the HP ZBook Ultra G1a laptop...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 11:29:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder23"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Ubuntu Concept For Snapdragon X1 Laptops Moves To Linux 6.16, Enables More Devices</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Ubuntu-Concept-Linux-6.16-X1E</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Ubuntu-Concept-Linux-6.16-X1E</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>The Ubuntu Concept ISO images that contain experimental patches -- or "hacks" to make things work -- to enable Ubuntu Linux on the Qualcomm Snapdragon X1 Elite powered laptops is out with a fresh spin. The new Ubuntu Concept ISOs move to using the Linux 6.16 kernel while also enabling some additional Snapdragon X laptop models...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 08:52:36 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder24"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Mesa 25.3 Merges Vulkan AMD Anti-Lag Support</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Mesa-Vulkan-AMD-Anti-Lag</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Mesa-Vulkan-AMD-Anti-Lag</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>An exciting addition landing into the Mesa 25.3 codebase today is support for AMD's Vulkan anti-lag extension, VK_AMD_anti_lag...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 06:49:03 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder25"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>AMD RadeonSI Driver Enables OpenGL Sparse Texture Support For RDNA4 GPUs</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/RadeonSI-RDNA4-Sparse-Textures</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/RadeonSI-RDNA4-Sparse-Textures</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Well known open-source AMD Mesa developer Marek Olšák has landed his latest set of 16 patches into Mesa 25.3-devel for enhancing the RadeonSI Gallium3D driver. Notable here is getting OpenGL sparse textures working on the latest Radeon RX 9000 series RDNA4/GFX12 graphics cards...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 06:41:32 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder26"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>The Linux Kernel Seeing Rare Code Activity Around SPARC64</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Linux-SPARC64-vDSO-Library</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Linux-SPARC64-vDSO-Library</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>One of the CPU architectures continuing to be supported by the mainline Linux kernel but rarely ever seeing any code activity is the SPARC64 architecture port for the once-interesting processors from Sun Microsystems...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Thu, 24 Jul 2025 06:25:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder27"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Valve Linux Engineer Working On A Big Improvement For Old AMD Radeon GPUs</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/AMDGPU-DC-Analog-GCN-1.0-1.1</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/AMDGPU-DC-Analog-GCN-1.0-1.1</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Timur Kristóf as a contractor on Valve's open-source Linux graphics driver team is known for his work on the RADV Vulkan driver and ACO shader compiler but recently he's been working on some improvements to the AMDGPU kernel driver. A big feat he's been tackling is enabling support for analog display connectors within the AMDGPU driver for the "DC" code. Besides a few supported older GPUs having DVI-I connections, this analog support is significant in that it's a milestone for unblocking the aging GCN 1.0 and GCN 1.1 GPUs from using the modern AMDGPU driver by default...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 20:32:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder28"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>GNOME Foundry Taking Shape As "An IDE In A Box" With CLI Tooling</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/GNOME-Builder-Foundry-2025</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/GNOME-Builder-Foundry-2025</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Born out of his work on developing the GNOME Builder integrated development environment (IDE) over the past decade, one of the recent initiatives by GNOME developer Christian Hergert has been on Foundry, a new "IDE in a box" of sorts and with CLI tooling complementary to the GNOME Builder IDE graphical environment...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 16:38:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder29"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
+  </span><div class="folder" id="folder33"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
    </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>AMD Strix Point Linux Performance Comparison One Year After Launch</span><span class="html-tag">&lt;/title&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/review/amd-strix-point-2025</span><span class="html-tag">&lt;/link&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/review/amd-strix-point-2025</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>How time flies... This week already marks one year since the debut of AMD's Zen 5 Strix Point laptop processors with the likes of the Ryzen AI 9 HX 370 and Ryzen AI 9 365 that also rolled out the RDNA 3.5 integrated graphics. In marking one year that Strix Point laptops have been available, here is a performance benchmarking redux of the AMD Ryzen AI 9 HX 370 with the ASUS Zenbook S16 for looking at how the Linux performance at launch-day compares to a very leading-edge Linux software stack now one year later.</span><span class="html-tag">&lt;/description&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 14:50:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder30"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Wayback 0.1 Released As First Preview Release For X11 Compatibility Layer</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Wayback-0.1-Released</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Wayback-0.1-Released</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Announced just once month ago was Wayback as an X11 compatibility layer build atop Wayland components. In the past month Wayback has been off to a quick start with a goal of being production-ready next year and has also already became a project under the FreeDesktop.org umbrella. Today marks the release of Wayback 0.1 as the first preview release for this X11 compatibility layer...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 14:46:50 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder31"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>systemd 258-rc1 Is A Massive Feature Release With New Tools, More Than 260 Changes</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/systemd-258-rc1</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/systemd-258-rc1</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>Systemd 257 debuted last December and now finally systemd 258 is preparing to roll out... Systemd 258-rc1 was issued today as the first test release toward this next major release. It's a big one with more than 260 changes noted in the announcement, including multiple new tools and other additions...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 14:00:59 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder32"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Zed Editor's Newest Feature: Being Able To Disable All AI Features</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Zed-Option-Disable-AI-Features</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Zed-Option-Disable-AI-Features</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>The Zed open-source code editor that is written in Rust, has begun supporting Linux rather well, and has continued tacking on new features to assist developer workflows has introduced another new feature: the ability to easily disable all AI features...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 12:00:00 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
-  </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
-  </span><div class="folder" id="folder33"><div class="line"><span class="folder-button fold"></span><span class="html-tag">&lt;item&gt;</span></div><div class="opened"><span>
-   </span><div class="line"><span class="html-tag">&lt;title&gt;</span><span>Blender Now Supports Properly Importing &amp; Exporting HDR Videos</span><span class="html-tag">&lt;/title&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;link&gt;</span><span>https://www.phoronix.com/news/Blender-HDR-Video-Import-Export</span><span class="html-tag">&lt;/link&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;guid&gt;</span><span>https://www.phoronix.com/news/Blender-HDR-Video-Import-Export</span><span class="html-tag">&lt;/guid&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;description&gt;</span><span>In addition to Blender 5.0 supporting HDR on Linux when using the Vulkan API and with Wayland, another important high dynamic range (HDR) milestone landed this week into Blender: the ability to both import and export HDR videos...</span><span class="html-tag">&lt;/description&gt;</span></div><span>
-   </span><div class="line"><span class="html-tag">&lt;pubDate&gt;</span><span>Wed, 23 Jul 2025 11:47:27 -0400</span><span class="html-tag">&lt;/pubDate&gt;</span></div><span>
    </span><div class="line"><span class="html-tag">&lt;dc:creator&gt;</span><span>Michael Larabel</span><span class="html-tag">&lt;/dc:creator&gt;</span></div><span>
   </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/item&gt;</span></div></div><span>
 </span></div><span class="folded hidden">...</span><div class="line"><span class="html-tag">&lt;/channel&gt;</span></div></div><span>
