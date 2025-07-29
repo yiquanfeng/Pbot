@@ -8,23 +8,23 @@ import java.util.ArrayList;
 
 
 public class HttpHandler {
-//    public JsonHandler jsonHandler;
-//    JsonHandler JsonHandler;
+    private static final HttpClient mainClient = HttpClient.newHttpClient();
+
     static void http_handler(String url, String json){
-        HttpClient mainClient = HttpClient.newHttpClient();
+
         HttpRequest mainRequest = HttpRequest.newBuilder()
                 .uri(URI.create(url))
-                .timeout(Duration.ofMinutes(1))
-                .header("SingalContent-Type", "application/json")
+                .timeout(Duration.ofSeconds(20))
+                .header("Content-Type", "application/json")
                 .POST(HttpRequest.BodyPublishers.ofString(json))
                 .build();
-
+//        System.out.println(json);
         try {
             HttpResponse<String> response =
                     mainClient.send(mainRequest, HttpResponse.BodyHandlers.ofString());
             System.out.println(response.statusCode());
             System.out.println(response.body());
-            Thread.sleep(1000); // 20mins
+//            Thread.sleep(1000); // 20mins
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

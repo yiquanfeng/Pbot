@@ -6,7 +6,7 @@ import java.util.*;
 public class JsonHandler {
     static Gson gson = new Gson();
     String json = "";
-    String url = "http://127.0.0.1:3001/{api}";
+    String url = "http://xx.xx.255.6:3001/{api}";
     NodesMessage nodesMessage = new NodesMessage();
     JsonHandler(){
 
@@ -59,7 +59,7 @@ class NodesMessage {
 
 //class groupNodesMessage {
 //    String group_id = "";
-//    List<NodeContent> message = new ArrayList<>();
+//    List<NodeContent> messages = new ArrayList<>();
 //
 //    groupNodesMessage(){
 //
@@ -72,18 +72,18 @@ class NodesMessage {
 //        NodeContent tmp1 = new NodeContent(group_id, nickname);
 //        SingalContent tmp2 = new SingalContent(type, data);
 //        tmp1.add(tmp2);
-//        message.add(tmp1);
+//        messages.add(tmp1);
 //    }
 //}
 
 class SingalMessage {
-    String user_id = "";
+    String group_id = "";
     List<SingalContent> message = new ArrayList<>();
 //    NodeContent nodeMsg = new NodeContent();
 //    String jsonMsg = JsonHandler.gson.toJson(Msg);
 
-    SingalMessage(String user_id, String type, String data) {
-        this.user_id = user_id;
+    SingalMessage(String group_id, String type, String data) {
+        this.group_id = group_id;
         this.message.add(new SingalContent(type, data));
     }
 
@@ -91,13 +91,13 @@ class SingalMessage {
 
 //class groupSingalMessage {
 //    String group_id = "";
-//    List<SingalContent> message = new ArrayList<>();
+//    List<SingalContent> messages = new ArrayList<>();
 ////    NodeContent nodeMsg = new NodeContent();
 ////    String jsonMsg = JsonHandler.gson.toJson(Msg);
 //
 //    groupSingalMessage(String group_id, String type, String data) {
 //        this.group_id = group_id;
-//        this.message.add(new SingalContent(type, data));
+//        this.messages.add(new SingalContent(type, data));
 //    }
 //
 //}
