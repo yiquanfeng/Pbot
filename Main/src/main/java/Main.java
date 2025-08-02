@@ -23,7 +23,7 @@ public class Main {
         ArrayList<String> fulls = rssHandler.getContent();
 
         for (int i=0; i<fulls.size(); i++) {
-            jsonHandler.addNode(sender_id, sneder_name, "text", translator.trans(fulls.get(i)));
+            jsonHandler.addNode(sender_id, sneder_name, "text", translator.trans(fulls.get(i))+"\n\n\n"+rssHandler.extraContent.get(i));
         }
         System.out.println(jsonHandler.getNodeJson());
         HttpHandler.http_handler(jsonHandler.url, jsonHandler.getNodeJson());

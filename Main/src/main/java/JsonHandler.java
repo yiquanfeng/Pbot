@@ -6,7 +6,7 @@ import java.util.*;
 public class JsonHandler {
     static Gson gson = new Gson();
     String json = "";
-    String url = "http://xx.xx.255.6:3001/{api}";
+    String url = "http://127.0.0.1:3001/{api}";
     NodesMessage nodesMessage = new NodesMessage();
     JsonHandler(){
 

@@ -7,7 +7,7 @@ import java.time.Duration;
 import java.util.*;
 
 public class TranslatorMy {
-    static String BASE_URL = "http://xx.xx.253.170:2277/v1";
+    static String BASE_URL = "http://127.0.0.1:1234/v1";
     static HttpClient client = HttpClient.newBuilder()
             .version(HttpClient.Version.HTTP_1_1)
             .connectTimeout(Duration.ofSeconds(10)) // 10秒连接超时
@@ -16,8 +16,7 @@ public class TranslatorMy {
     static String system = "你是一位熟悉中文、英文和科技，尤其是操作系统、硬件和 Linux 相关知识的科技翻译人员。" +
             "用户会给出一则英文科技新闻摘要，你的任务是将其翻译为中文。你的翻译应当准确表达原文内容；" +
             "在此前提下你可以适当调整翻译内容，保证翻译结果符合中文语言习惯。输出的翻译中不应包含其他内容。\n" +
-            "输出应当以Markdown格式给出，其中标题以#开头即可，不应添加粗体标记。\n" +
-            "摘要中会给出发布时间，请在输出的翻译结果中将其转换为北京时间（+0800）。";
+            "输出应当以Markdown格式给出，其中标题以#开头即可，不应添加粗体标记.";
 
 
 
@@ -35,9 +34,9 @@ public class TranslatorMy {
 
         try {
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-            System.out.println(response.body());
+            System.out.println(response.statusCode());
             Content content = JsonHandler.gson.fromJson(response.body(), Content.class);
-            System.out.println(content.getContent());
+//            System.out.println(content.getContent());
             ans = content.getContent();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
@@ -45,7 +44,7 @@ public class TranslatorMy {
             throw new RuntimeException(e);
         }
 
-        return "";
+        return ans;
 
     }
     public static void main(String[] args){
@@ -72,7 +71,7 @@ class Content {
         Map<String, Object> tmp2 = (Map<String, Object>) tmp1.get("message");
         String tmp3 =  tmp2.get("content").toString();
 
-        return tmp3;//.split("</think>")[1];
+        return tmp3.split("</think>")[1];
     }
 }
 
