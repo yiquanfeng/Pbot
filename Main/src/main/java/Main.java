@@ -7,9 +7,9 @@ public class Main {
     public static void main (String[] aegs){
         // init api type,messge json
         String api = "send_group_msg";
-        String sender_id = "3775141348";
+        String sender_id = "xxx";
         String sneder_name = "bot";
-        String group_id = "1055065019";
+        String group_id = "xxx";
 
         TranslatorMy translator = new TranslatorMy();
 //        String content =  translator.trans("hello linux, this is a test for xdd");

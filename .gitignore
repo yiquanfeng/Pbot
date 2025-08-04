@@ -1,3 +1,5 @@
 Main/target/
 Main/src/test/
 .idea/
+rss.php
+.DS_Store

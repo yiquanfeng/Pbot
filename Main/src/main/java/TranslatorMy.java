@@ -34,7 +34,7 @@ public class TranslatorMy {
 
         try {
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-            System.out.println(response.statusCode());
+//            System.out.println(response.statusCode());
             Content content = JsonHandler.gson.fromJson(response.body(), Content.class);
 //            System.out.println(content.getContent());
             ans = content.getContent();
