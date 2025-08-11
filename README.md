@@ -4,9 +4,10 @@ Protocol : [OneBot11](https://github.com/botuniverse/onebot)
 the OneBot11 implementation: [NapCat](https://github.com/NapNeko/NapCatQQ)  
 BotPlatform: QQNT  
 Application Backward: Server using Java(this Project)  
-Scraper: Python Service using Selenium and undetected_chromedriver  
+Content: Rss file on official website
 
-## now Function
+## now Features
+- add AI-enabled translation based on qwen/14b thinking
 - shell script to auto-start for crontab to use
 - time compare and multitask balance
 - scrape the phoronix rss file  
@@ -14,7 +15,5 @@ Scraper: Python Service using Selenium and undetected_chromedriver
 - json message using Gson
 - send api requests to NapCat server (now is only /send_group_msg)
 
-bug-report  
-[fixed] if i remove time update, then some news will repeat
 
 
