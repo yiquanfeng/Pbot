@@ -1,5 +1,6 @@
 Main/target/
 Main/src/test/
 .idea/
+.mvn/
 rss.php
 .DS_Store

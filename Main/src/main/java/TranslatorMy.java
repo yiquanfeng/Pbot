@@ -7,7 +7,7 @@ import java.time.Duration;
 import java.util.*;
 
 public class TranslatorMy {
-    static String BASE_URL = "http://127.0.0.1:1234/v1";
+    static String BASE_URL = "http://xxx/v1";
     static HttpClient client = HttpClient.newBuilder()
             .version(HttpClient.Version.HTTP_1_1)
             .connectTimeout(Duration.ofSeconds(10)) // 10秒连接超时
@@ -71,7 +71,7 @@ class Content {
         Map<String, Object> tmp2 = (Map<String, Object>) tmp1.get("message");
         String tmp3 =  tmp2.get("content").toString();
 
-        return tmp3.split("</think>")[1];
+        return tmp3.split("</think>")[1].strip();
     }
 }
 
